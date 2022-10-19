@@ -32,6 +32,7 @@ body{
     display:flex;
     flex-direction:row;
     background-size: cover;
+    height: fit-content;
 }
 .item{
     height: 100%;
