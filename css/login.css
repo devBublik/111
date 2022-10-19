@@ -1,0 +1,505 @@
+.login_body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    margin-top: -16px;
+}
+
+p, div, span, label, a, li, dt, dd, input, textarea, pre, body, button, input.pnlbutton, input.file {
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+}
+
+a, a:hover {
+    color: #39B54A;
+    /*background: url(../img/sc/dotted_line.png) 0 15px repeat-x transparent;*/
+}
+.login_body-2 {
+    margin: auto;
+}
+.login {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: none;
+}
+
+.winlogin {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.winlogin_auth .keyboardInputInitiator {
+    left: 220px;
+    position: relative;
+    top: -20px;
+}
+
+.winlogin .winlogin_auth {
+    width: 250px;
+}
+
+.red, span.red, .winlogin span.red {
+    color: #cc0001;
+}
+
+input {
+
+}
+
+.input.withErrors {
+    border-color: #cc0001;
+}
+
+.login_sysname {
+    color: #000000;
+    font-size: 31px;
+    font-weight: bold;
+    padding: 5px 5px 5px 40px;
+    text-align: left;
+}
+
+.winlogin > table td {
+    padding: 20px 0;
+}
+
+.winlogin .winlogin_auth {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    padding: 19px 29px 10px;
+    margin: 8% 0 0 14%;
+}
+
+img.logo{
+    margin: 8px 0 15px 0;
+    width: 70%;
+}
+
+.winlogin .winlogin_auth td {
+    padding: 0 0 5px 0;
+}
+
+input.input, input.inputact {
+    border: 1px solid #a5a5a5;
+    height: 23px !important;
+    padding: 3px !important;
+    border-radius: 3px;
+    width: 190px;
+    color: #4d4d4d;
+}
+
+.winlogin .input, .winlogin .inputact {
+    width: 243px !important;
+}
+
+td.login_label {
+    font-size: 13px;
+    text-align: left;
+    width: 107px;
+    color: #000;
+}
+
+.iBank {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    
+}
+
+#info-box-wrapper {
+    float: left;
+    width: 420px;
+}
+
+.phoneNumber {
+    font-size: 25px;
+}
+
+.footer-cell {
+    display: table-cell;
+    padding-right: 30px;
+}
+
+.footer {
+    height: 100px;
+    background: #39B54A;
+    position: relative;
+}
+.footer-copyright {
+    line-height: 18px;
+}
+
+
+.footer-copyright span {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+span.support-number {
+    font-size: 35px;
+}
+
+.support {
+    margin: 0 0 0 7%;
+    color: #FFFFFF;
+}
+
+.support span {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.techsupport {
+    font-size: 18px;
+}
+
+.info-box {
+    padding-left: 80px;
+}
+
+.winlogin_auth #capsIndicator {
+    position: absolute;
+}
+
+table.news_table {
+    width: 100%;
+}
+
+.input {
+    margin: 5px 0 0 0;
+}
+
+.news {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.news .date {
+    color: #9B9B9B;
+    padding-top: 15px;
+}
+
+.news .text {
+    padding-right: 20px;
+}
+
+.news .news-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #39B54A;
+}
+
+.news .text, .news .text p {
+    font-size: 14px;
+    margin: 0;
+    color: #444444
+}
+
+/*******/
+.tooltips {
+    background: none repeat scroll 0 0 #cc0001;
+    border-radius: 5px;
+    color: #ffffff;
+    height: auto;
+    left: 261px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: auto;
+    min-width: 250px;
+    z-index: 99;
+}
+
+.tooltips:after {
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #cc0001;
+    border-top: 8px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+}
+
+#captcha:before{
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #b35657;
+    border-top: 8px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: -12px;
+    transform: rotate(90deg);
+    width: 0;
+}
+
+.winlogin .errmsg {
+    background: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.winlogin span {
+    color: #ffffff;
+    padding: 1px;
+    line-height: 20px;
+}
+
+.curRates {
+    background-image: none;
+}
+
+.winlogin .curRates {
+    padding: 0;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+
+.winlogin span.currCode {
+    color: #808080;
+    font-weight: normal;
+}
+
+#lang {
+    left: 720px;
+    min-width: 100px;
+    position: absolute;
+}
+
+div.language {
+    color: #39B54A;
+    float: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.language.current {
+    color: #cc0001;
+    text-decoration: none;
+    cursor: default;
+}
+
+#keyboardInputMaster thead {
+    margin: 0px !important;
+    background: #000000;
+    overflow: auto;
+}
+
+.small-services-business {
+    color: #333;
+    font-size: 1.4em;
+    margin: 0px;
+    line-height: 1.0em;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    position: relative;
+}
+
+.small-services-business .services-title {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 0.8em;
+    font-family: Helvetica;
+    color: #39B54A;
+}
+
+.small-services-business .c-invest-link {
+    margin-top: 16px;
+}
+
+.c-invest-link {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 3px;
+    background: none;
+    font-family: Helvetica;
+}
+.c-invest-link a {
+    color: #fff;
+}
+
+.small-services-business table {
+    width: 530px;
+}
+
+.small-services-business table tr td {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.small-services-business a {
+    color: #333;
+    border: 1px solid #333;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 3px;
+    background: none;
+    font-family: Helvetica;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.main-page-table {
+    width: 1090px;
+    height: 50%;
+    text-align:left;
+    background-image: url(../img/login.jpg);
+    background-position: left -138px center;
+    background-size: cover;
+    position: relative;
+}
+
+.first-login{
+    width: 308px;
+    height: 45px;
+    background: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    margin-left: 56px;
+}
+.first-login-table{
+    text-align: center;
+    width: 100%;
+}
+.first-login > table td{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.login-td > table td{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.small-services-business > table td{
+    padding-right: 12px;
+}
+.list-style {
+    color: #39B54A;
+    position: relative;
+    top: -3px;
+
+}
+
+.link-manual {
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+    color: #333;
+    border: 1px solid #333;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 3px;
+    background: none;
+    font-family: Helvetica;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;      
+}
+
+.small-services-business .more {
+    color: #39B54A;
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    padding: 0;
+}
+#captcha {
+    background-color: #b35657;
+    width: 292px;
+    top: 50px;
+    position: absolute;
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    padding: 13px;
+    align-items: center;
+    z-index: 10;
+}
+.captcha-wrap, #captchaImg {
+    width: 200px;
+    position: relative;
+}
+
+.captcha-inp-wrap, .captcha-wrap {
+    position: relative;
+    display: initial;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0 10px;
+}
+
+.capthca-renew {
+    position: absolute;
+    cursor: pointer;
+    bottom: 0;
+    right: -20px;
+}
+
+.captcha-inp-wrap .captcha-inp {
+    width: 243px;
+    height: 23px;
+    margin: 5px 0 0;
+    padding: 3px;
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+    color: #4d4d4d;
+}
+
+.links-container {
+    display: none;
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+.links-container_visible {
+    display: block;
+}
+
+.links-container__link {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    background: #39B54A !important;
+    margin: 0 !important;
+    padding: 10px 5px !important;
+    border: none !important;
+    display: block;
+    color: #fff !important;
+    transition: color 0.3s;
+    border-radius: 0% !important;
+}
+.links-container__link:hover {
+    color: #fff32a !important;
+}
+.links-container__link:first-of-type {
+    padding: 10px 5px 0 !important;
+}
