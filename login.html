@@ -9,8 +9,8 @@
   <title>ДБО Центр-инвест</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <link rel="stylesheet" type="text/css" href="../css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
 
   <link rel="preload" as="image" href="../img/main-background/1.jpg">
   <link rel="preload" as="image" href="../img/main-background/2.jpg">
@@ -26,23 +26,23 @@
 
 
 
-  <script src="../js/bss.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/biginteger.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/sha.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/srp.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/login.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/i18n.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/keyboard_i18n.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/keyboard.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/shake.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/instructions.js" type="text/javascript" charset="UTF-8"></script>
-  <script src="../js/carousel.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/bss.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/biginteger.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/sha.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/srp.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/login.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/i18n.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/keyboard_i18n.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/keyboard.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/shake.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/instructions.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="js/carousel.js" type="text/javascript" charset="UTF-8"></script>
 
-  <link rel="stylesheet" type="text/css" href="../css/keyboard.css">
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="../css/shake.css">
-  <link rel="stylesheet" type="text/css" href="../css/new-style.css">
-  <link rel="stylesheet" type="text/css" href="../css/adaptive.css">
+  <link rel="stylesheet" type="text/css" href="css/keyboard.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/shake.css">
+  <link rel="stylesheet" type="text/css" href="css/new-style.css">
+  <link rel="stylesheet" type="text/css" href="css/adaptive.css">
 
 </head>
 <body onload="startInterval()">
@@ -51,7 +51,7 @@
   <div class="login__content">
     <div>
     <a href="https://www.centrinvest.ru" rel="noopener noreferrer">
-      <img class="logo" src="../img/logo.png">
+      <img class="logo" src="img/logo.png">
     </a>
     <div class="login-title-container">
       <span class="login-title">Вход в клиент-банк</span>
@@ -75,7 +75,7 @@
 
       <!-- CapsLock Warning -->
       <div style="display: none" id="capsIndicator">
-        <img src="../img/svg/warning.svg" width="21" height="21">
+        <img src="img/svg/warning.svg" width="21" height="21">
         <b style="color:white">Нажата клавиша CapsLock</b>
       </div>
       <!-- /CapsLock Warning -->
@@ -85,14 +85,14 @@
   <div style="position:relative; display: flex; flex-direction: row; align-items: center; margin: 10px 0">
     <button class="login-button" onclick="checkCaptchaAndSubmit()" id="submitButton">
       <span id="login-button-text">Войти</span>
-      <img src="../img/svg/loading.svg" id="loader" style="display: none">
+      <img src="img/svg/loading.svg" id="loader" style="display: none">
     </button>
 <!-- CAPTCHA -->
     <div id="captcha" style="display: none;">
       <div class="captcha-wrap">
         <img id="captchaImg" width="200" height="38">
         <a class="capthca-renew" onclick="checkCaptcha()">
-          <img src="../img/svg/refresh.svg" width="15" height="15">
+          <img src="img/svg/refresh.svg" width="15" height="15">
         </a>
       </div>
       <div class="captcha-inp-wrap">
@@ -133,7 +133,7 @@
 			</div></div>
 			<div class="qr_site" onMouseEnter="show_qr('site')" onMouseLeave="hide_qr()">
 			<div class="client-bank-download__box3">
-					<div class="client-bank-download__image-wr"><a href="/media/biz/client-bank/STD_CentreInvestGms_Android_4.6.1.34_release.apk" target="_blank" download="STD_CentreInvestGms_Android_4.6.1.34_release.apk" class="client-bank-download__app-stores-link"><img src="../img/site_download.svg" alt="apk" class="client-bank-download__app-stores-img"></a></div> 
+					<div class="client-bank-download__image-wr"><a href="/media/biz/client-bank/STD_CentreInvestGms_Android_4.6.1.34_release.apk" target="_blank" download="STD_CentreInvestGms_Android_4.6.1.34_release.apk" class="client-bank-download__app-stores-link"><img src="img/site_download.svg" alt="apk" class="client-bank-download__app-stores-img"></a></div> 
 					
 					</div></div></div></div>
 
@@ -224,7 +224,7 @@
 <div id="modalMask" style="z-index: 1800; background: none repeat scroll 0 0 #E0E1E3; top: 0; left: 0; height: 100%; width: 100%;
     opacity: 0; position: fixed; display: none;"></div>
 
-<script src="../js/loginpageutils.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/loginpageutils.js" type="text/javascript" charset="UTF-8"></script>
 <script type="text/javascript">
 
   var myInput = document.getElementById('password');
@@ -243,8 +243,8 @@
   const passwordInput = document.querySelector('#password')
   VKI_attach(passwordInput);
 </script>
-<script src="../js/bssplugin.js" type="text/javascript" charset="UTF-8"></script>
-<script src="../js/crypto-plugin.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/bssplugin.js" type="text/javascript" charset="UTF-8"></script>
+<script src="js/crypto-plugin.js" type="text/javascript" charset="UTF-8"></script>
 <input id="CSRFToken" name="CSRFToken" value="%CSRFToken%" type="hidden">
 <input id="CSRFTokenCookieId" name="CSRFTokenCookieId" value="%CSRFTokenCookieId%" type="hidden">
 <script type="text/javascript">
