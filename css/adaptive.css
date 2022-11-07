@@ -1,3 +1,11 @@
+html, body {
+    min-height: auto;
+}
+
+img.logo {
+    width: 50%;
+}
+
 #instructions-select {
     display: none;
 }
@@ -41,6 +49,7 @@
 }
 .login-input-container {
     height: 100%;
+    overflow: auto;
 }
 
 .sidenav{
@@ -61,6 +70,11 @@
     z-index: 101;
     transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1);
     animation: .5s cubic-bezier(0.075, 0.82, 0.165, 1) open;
+}
+
+.qr__box {
+    top: 525px;
+    left: 171px;
 }
 
 @keyframes open {
