@@ -13,6 +13,10 @@
     flex: 1 0 auto;
 }
 
+.news-container {
+    height: 100%;
+}
+
 .news_button {
     font-size: 18px;
 }
@@ -42,6 +46,8 @@
 .sidenav{
     width: 550px;
     animation: .5s cubic-bezier(0.075, 0.82, 0.165, 1) open;
+    height: 100%;
+    overflow: auto;
 }
 
 .sidenav.hide {
@@ -128,9 +134,10 @@
         transition: 0!important;
     }
 }
-@media (max-width: 780px) {
+@media (max-width: 1040px) {
     .sidenav {
         top: 55%;
+        height: 45%;
     }
 }
 
